@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "example of a fullstack app with angular and express",
   "scripts": {
-    "format": "biome format --write ./src",
-    "lint": "biome check --write ./src",
-    "start": "node server.js"
+    "format": "biome format --write ./app",
+    "lint": "biome check --write ./app"
   },
   "keywords": [],
   "author": "cristiandelahooz",
