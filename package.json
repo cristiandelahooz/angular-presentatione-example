@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "example of a fullstack app with angular and express",
   "scripts": {
+    "start": "pnpm --filter '**' start",
     "format": "biome format --write ./app",
     "lint": "biome check --write ./app"
   },
